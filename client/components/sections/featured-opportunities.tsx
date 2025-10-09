@@ -1,14 +1,8 @@
-import {
-  BadgeCheck,
-  Briefcase,
-  CalendarDays,
-  ChevronDown,
-  MapPin,
-} from "lucide-react";
+import { Briefcase, CalendarDays, ChevronDown, MapPin } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { categories, filters, opportunities } from "@/data/opportunities";
+import { filters, opportunities } from "@/data/opportunities";
 import { cn } from "@/lib/utils";
 
 const typeStyles: Record<string, string> = {
