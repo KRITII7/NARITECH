@@ -15,7 +15,9 @@ export function StatsSection() {
                 <Icon className="size-5" />
               </span>
               <div className="space-y-1">
-                <p className="text-3xl font-bold text-foreground">{stat.value}</p>
+                <p className="text-3xl font-bold text-foreground">
+                  {stat.value}
+                </p>
                 <p className="text-sm text-muted-foreground">{stat.label}</p>
               </div>
             </div>

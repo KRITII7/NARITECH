@@ -19,7 +19,8 @@ export function FeaturedOpportunitiesSection() {
           Featured Opportunities
         </h2>
         <p className="text-lg text-muted-foreground">
-          Browse and filter from our curated list of opportunities tailored for every stage of your tech journey.
+          Browse and filter from our curated list of opportunities tailored for
+          every stage of your tech journey.
         </p>
       </div>
       <div className="grid gap-4 rounded-3xl border border-card-border/80 bg-card/95 p-6 shadow-sm shadow-primary/5 md:grid-cols-4">
@@ -52,7 +53,9 @@ export function FeaturedOpportunitiesSection() {
                 <h3 className="text-xl font-semibold text-foreground">
                   {opportunity.title}
                 </h3>
-                <p className="text-sm text-muted-foreground">{opportunity.company}</p>
+                <p className="text-sm text-muted-foreground">
+                  {opportunity.company}
+                </p>
               </div>
               <Badge
                 variant="outline"

@@ -36,7 +36,10 @@ export function SiteHeader({ className }: { className?: string }) {
         </div>
         <div className="ml-auto flex items-center gap-2">
           <div className="md:hidden">
-            <Search className="size-5 text-muted-foreground" aria-hidden="true" />
+            <Search
+              className="size-5 text-muted-foreground"
+              aria-hidden="true"
+            />
           </div>
           <ThemeToggle />
           <Button className="hidden rounded-full border border-primary-border bg-primary px-5 font-semibold shadow-sm transition hover:bg-primary/90 md:inline-flex">

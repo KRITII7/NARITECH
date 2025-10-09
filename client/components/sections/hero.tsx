@@ -20,10 +20,12 @@ export function HeroSection() {
         </span>
         <div className="space-y-6">
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
-            Discover Your Next <span className="text-primary">Tech Opportunity</span>
+            Discover Your Next{" "}
+            <span className="text-primary">Tech Opportunity</span>
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground md:text-xl">
-            Connect with hackathons, internships, and fellowships designed to empower women in technology. Your next breakthrough starts here.
+            Connect with hackathons, internships, and fellowships designed to
+            empower women in technology. Your next breakthrough starts here.
           </p>
         </div>
         <form

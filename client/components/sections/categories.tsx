@@ -11,7 +11,8 @@ export function CategoriesSection() {
           Explore Opportunities
         </h2>
         <p className="text-lg text-muted-foreground">
-          Find the perfect opportunity to advance your tech career and connect with inclusive communities.
+          Find the perfect opportunity to advance your tech career and connect
+          with inclusive communities.
         </p>
       </div>
       <div className="grid gap-6 md:grid-cols-3">
@@ -26,8 +27,12 @@ export function CategoriesSection() {
                 <Icon className="size-5" />
               </span>
               <div className="space-y-3">
-                <h3 className="text-xl font-semibold text-foreground">{category.name}</h3>
-                <p className="text-sm text-muted-foreground">{category.description}</p>
+                <h3 className="text-xl font-semibold text-foreground">
+                  {category.name}
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  {category.description}
+                </p>
               </div>
               <div className="mt-auto flex items-center justify-between text-sm text-muted-foreground">
                 <span>{category.count}</span>

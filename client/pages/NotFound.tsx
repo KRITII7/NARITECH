@@ -25,10 +25,15 @@ const NotFound = () => {
           We couldn’t find that page
         </h1>
         <p className="mt-4 text-base text-muted-foreground">
-          The page you are looking for may have been moved, deleted, or might be in the process of being built. Let’s get you back to the opportunities that matter.
+          The page you are looking for may have been moved, deleted, or might be
+          in the process of being built. Let’s get you back to the opportunities
+          that matter.
         </p>
         <div className="mt-8 flex justify-center">
-          <Button asChild className="rounded-full border border-primary-border bg-primary px-6 py-3 text-sm font-semibold shadow-sm hover:bg-primary/90">
+          <Button
+            asChild
+            className="rounded-full border border-primary-border bg-primary px-6 py-3 text-sm font-semibold shadow-sm hover:bg-primary/90"
+          >
             <Link to="/">
               <ArrowLeft className="mr-2 size-4" />
               Return Home

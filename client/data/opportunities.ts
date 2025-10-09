@@ -1,5 +1,11 @@
 import type { LucideIcon } from "lucide-react";
-import { Briefcase, GraduationCap, Lightbulb, TrendingUp, Users } from "lucide-react";
+import {
+  Briefcase,
+  GraduationCap,
+  Lightbulb,
+  TrendingUp,
+  Users,
+} from "lucide-react";
 
 export type OpportunityType = "hackathon" | "internship" | "fellowship";
 
@@ -47,8 +53,7 @@ export const categories: OpportunityCategory[] = [
   {
     icon: Briefcase,
     name: "Internships",
-    description:
-      "Gain hands-on experience at leading tech companies worldwide",
+    description: "Gain hands-on experience at leading tech companies worldwide",
     count: "150+ opportunities",
   },
   {
