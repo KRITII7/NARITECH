@@ -217,12 +217,3 @@ export const heroHighlights = [
   "Updated Daily",
   "Remote & On-Site",
 ];
-
-export const heroBadges = [
-  {
-    icon: Sparkles,
-    title: "Discover Your Next Tech Opportunity",
-    subtitle:
-      "Connect with hackathons, internships, and fellowships designed to empower women in technology. Your next breakthrough starts here.",
-  },
-];
