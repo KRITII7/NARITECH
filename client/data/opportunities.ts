@@ -1,18 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import {
-  Briefcase,
-  CalendarDays,
-  Cloud,
-  Cpu,
-  FileCode,
-  GraduationCap,
-  Lightbulb,
-  MapPin,
-  ShieldCheck,
-  Sparkles,
-  TrendingUp,
-  Users,
-} from "lucide-react";
+import { Briefcase, GraduationCap, Lightbulb, TrendingUp, Users } from "lucide-react";
 
 export type OpportunityType = "hackathon" | "internship" | "fellowship";
 
